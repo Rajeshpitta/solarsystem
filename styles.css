@@ -1,0 +1,127 @@
+body{
+    background-image: url(vecteezy_black-sky-with-stars-space-background_4640503.jpg);
+    background-attachment: fixed;
+}
+#neptune{
+    height: 900px;
+    width: 900px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 50px;
+}
+#nep_pic{
+    top:10px;
+    left: 800px;
+    position:absolute;
+    background: none;
+}
+#uranus{
+    height: 800px;
+    width: 800px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 50px;
+}
+#urns_pic{
+    top:100px;
+    left: 700px;
+    position:absolute;
+    background: none;
+}
+#Saturn{
+    height: 700px;
+    width: 700px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 50px;
+}
+#sat_pic{
+    top: 300px;
+    left: 620px;
+    position:absolute;
+    background: none;
+}
+#jupiter{
+    height: 600px;
+    width: 600px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 50px;
+}
+#jup_pic{
+    top:400px;
+    left: 630px;
+    position:absolute;
+    background: none;
+}
+#Mars{
+    height: 500px;
+    width: 500px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 50px;
+}
+#mars_pic{
+    top:500px;
+    left: 680px;
+    position:absolute;
+    background: none;
+}
+#earth{
+    height: 400px;
+    width: 400px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 50px;
+}
+#earth_pic{
+    top:600px;
+    left: 760px;
+    position:absolute;
+    background: none;
+}
+#venus{
+    height: 300px;
+    width: 300px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 50px;
+}
+#venus_pic{
+    top:670px;
+    left: 930px;
+    position:absolute;
+    background: none;
+}
+#mercury{
+    height: 200px;
+    width: 200px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 50px;
+}
+#mercury_pic{
+    top:600px;
+    left: 1050px;
+    position:absolute;
+    background: none;
+}
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+  
+  /* Apply the animation to the image */
+  earth_pic:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+  }
